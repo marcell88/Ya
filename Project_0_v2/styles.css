@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: #2f80ed;
+}
+
+.image {
+  width: 520px;
+  height: 190px;
+  margin-top: 110px;
+}
+
+.error {
+  visibility: hidden;
+}
+
+.code {
+  display:block;
+  font-size: 100px;
+  line-height: 140px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10px;
+  width: 420px;
+  visibility: visible;
+}
+
+.message {
+  display:block;
+  width: 420px;
+  margin-top: 22px;
+  text-align: center;
+  font-size: normal;
+  line-height: normal;
+  font-weight: normal;
+}
+
+.error:hover {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.footer {
+  margin-top: 126px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 420px;
+}
+
+/*
+.error_text:hover::after {
+  content: "Сервер должен отвечать на входящие HTTP-запросы. Например, когда вы вводите URL в адресную строку браузера, то отправляете запрос на сервер, чтобы тот вернул соответствующую веб-страницу. Если страница была перемещена, удалена или её не существовало вовсе, сервер вернёт ошибку 404.";
+  display: block;
+  width: 420px;
+
+  position: absolute;
+  top: 472px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 1rem;
+  line-height: normal;
+}
+*/
+
+
